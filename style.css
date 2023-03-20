@@ -21,9 +21,6 @@ body, html{
 }
 
 #image {
-    font-family: nordic;
-    color: white;
-    font-size: 100px;
     position: relative;
     height: fit-content;
     background-color: rgb(0, 0, 0, 0.3);
@@ -35,9 +32,27 @@ body, html{
     top:30%;
 }
 
+#image span {
+    font-family: nordic;
+    color: white;
+    font-size: 100px;
+}
+
 img {
     height: 150px;
     width: auto;
+}
+
+#content #photo-author {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    left: 150px;
+    
+}
+
+#content #photo-author a {
+    color: white;
 }
 
 form {
